@@ -3,12 +3,7 @@ class HomeController < ApplicationController
   end
 
   def about
-  	@about_me = "My Name is John Elder..."
+  	@about_me = "My Name is Muhammad Amir"
   	@answer = 2 + 2
-
-
-  	
-
   end
-
 end

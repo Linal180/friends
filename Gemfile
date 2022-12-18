@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.6'
+ruby '2.7.2'
 
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 
@@ -20,6 +20,7 @@ end
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'sqlite3', '~> 1.4'
+  gem 'listen'
 end
 
 group :production do
